@@ -1,0 +1,23 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Web Server,Amazon EC2,0,759.65,9115.8,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 2), Advance EC2 instance (r6g.4xlarge), Pricing strategy (undefined 1 Year  None upfront), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US East (N. Virginia),App Server,Amazon EC2,0,506.34,6076.08,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (30 GB), Instance type (c6g.4xlarge)"
+My Estimate,US East (N. Virginia),App Servers Load Balancer,Application Load Balancer,0,717.23,8606.76,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Web Servers Load Balancer,Application Load Balancer,0,717.23,8606.76,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),S3 Storage,S3 Standard,0,1150,13800,USD,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),S3 Storage,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),,AWS Data Transfer,0,0,0,USD,"DT Inbound: Internet (50000 GB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,669.283,8031.4,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m5.4xlarge), Deployment Option (Single-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,766.563,9198.76,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m5.4xlarge), Deployment Option (Single-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,493.65,5923.8,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,204.8,2457.6,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (10 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,204.8,2457.6,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (10 TB per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+The rationale of cost reduce,,,,,,,,
+* Decreased the compute power of EC2 instances,,,,,,,,
+* Decreased the compute power of RDS instances,,,,,,,,
+* Decreased the storage qouta of S3 to 1GB per user per month,,,,,,,,
